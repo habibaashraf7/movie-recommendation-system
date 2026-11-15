@@ -1,0 +1,19 @@
+# MovieLens data is downloaded automatically (its license does not allow redistribution)
+data/
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Secrets / local config - never commit
+.env
+.streamlit/secrets.toml
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
